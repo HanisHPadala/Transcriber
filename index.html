@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speak2Text</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Dark/Light Mode Toggle -->
+    <div class="theme-toggle">
+        <label class="switch">
+            <input type="checkbox" id="theme-checkbox">
+            <span class="slider"></span>
+        </label>
+    </div>
+    
+    <div class="container">
+        <h1>Speak2Text</h1>
+        <div class="note-area">
+            <p id="transcript">Your transcription will appear here...</p>
+        </div>
+        <button id="start-btn" class="cool-button">Start Transcription</button>
+        <button id="save-btn" class="cool-button">Download Note</button>
+        <div id="saved-notes"></div>
+    </div>
+<div id="about-section" class="content-section" style="display: none;">
+        <h2>About Speak2Text</h2>
+        <p>Speak2Text is a simple web application that uses speech recognition to transcribe spoken words into text. You can easily switch between dark and light themes, save your notes, and navigate through the app.</p>
+        <button onclick="showMainContent()">Back</button>
+    </div>
+    
+    <div class="hamburger" onclick="toggleMenu()">
+       <div></div>
+       <div></div>
+       <div></div>
+   </div>
+
+   <!-- Background Overlay -->
+   <div class="overlay" id="overlay"></div>
+
+  <!-- Navigation Panel -->
+  <div class="nav-panel" id="navPanel">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+ </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
