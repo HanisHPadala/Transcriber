@@ -21,7 +21,7 @@ A web-based voice transcription tool that lets you speak into your microphone, t
 This project uses the Web Speech API, supported in Google Chrome and other modern browsers. For the best experience, use Chrome.
 ###Project Structure
 voice-to-text-notes/
-├── index.html         # Main HTML file
-├── style.css          # CSS for styling
-└── script.js          # JavaScript for transcription and file saving
+- **index.html**: # Main HTML file
+- **style.css**: # CSS for styling
+- **script.js** # JavaScript for transcription and file saving
 
